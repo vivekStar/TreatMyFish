@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">ट्रीटमायफिश</string>
+    <string name="str_splash_screen">Splash Screen</string>
+    <string name="signup">साइन अप</string>
+
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="oriya">ଓଡ଼ିଆ</string>
+    <string name="strContinue">Continue</string>
+
+    <string name="sel_language_en">Select Your Language</string>
+    <string name="sel_language_hi">अपनी भाषा का चयन करें</string>
+    <string name="sel_language_or">ନିଜ ଭାଷା ବାଛନ୍ତୁ</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="verifyotp">ओटीपी डालिये</string>
+
+    <string name="issue_dashbord">Diseases Dashboard</string>
+    <string name="title">ट्रीटमायफिश</string>
+    <string name="diseases_info">रोगों की जानकारी</string>
+
+    <string name="str_select_issue">रोग का चयन करें</string>
+    <string name="str_add_comment">समस्या का विस्तृत विवरण</string>
+    <string name="str_pre_med">वर्तमान / पिछली दवा दी गई</string>
+    <string name="edit_profile">प्रोफाइल एडिट करें</string>
+    <string name="str_amc_details">एएमसी विवरण</string>
+    <string name="emailid">यूज़र नेम</string>
+    <string name="password">पासवर्ड</string>
+    <string name="forgot_password">पासवर्ड भूल गए ?</string>
+    <string name="sign_up">नया यूज़र साइनअप</string>
+    <string name="bt_single_continue">लॉग इन</string>
+    <string name="bt_google_signin">Login with Google</string>
+    <string name="bt_facebook_signin">Facebook Sign in</string>
+
+    <string name="err_msg_email">कृपया सही यूज़र नाम दर्ज करें</string>
+    <string name="err_msg_password">कृपया पासवर्ड नाम दर्ज करें</string>
+    <string name="err_msg">कृपया पासवर्ड नाम दर्ज करें</string>
+    <string name="logging">कृपया प्रतीक्षा करें ..</string>
+    <string name="logout_msg">क्या आप लॉगआउट करना चाहते हैं?</string>
+    <string name="login">लॉग इन</string>
+    <string name="fishinfo">फिश इन्फो</string>
+    <string name="disease_info">रोग की जानकारी</string>
+    <string name="title_issue_details">Diseases Details</string>
+
+    <string name="cancel">रद्द करें</string>
+    <string name="save">सेव</string>
+    <string name="saving_image">छवि सहेजा जा रहा है</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="no_storage_card">कोई मेमरी कार्ड नहीं</string>
+    <string name="not_enough_space">पर्याप्त स्थान नहीं है </string>
+    <string name="str_device_details">Service details</string>
+    <string name="str_start_date">Start date :</string>
+    <string name="str_end_date">End date</string>
+    <string name="str_preventive_maintenance">Preventive maintenance</string>
+    <string name="str_no_qnt">Total device quentity</string>
+    <string name="amc_details">AMC Details</string>
+    <string name="request_issue_succesfull">रिक्वेस्ट सबमिट की गई है</string>
+    <string name="thanks_feedback">रिक्वेस्ट सबमिट करने के लिए धन्यवाद.हम आपको जल्द ही उत्तर देंगे.</string>
+    <string name="loading_history">आपकी रिक्वेस्ट लोड हो रही है.</string>
+    <string name="loading_amc_details">विवरण लोड हो रहा है</string>
+    <string name="str_promotion">प्रोमोशन्स </string>
+    <string name="loading_promotion">रोमांचक ऑफ़र लोड हो रही है</string>
+    <string name="feedback_succesfull">आपकी पूछताछ के लिए धन्यवाद, हम जल्द ही आपसे संपर्क करेंगे</string>
+    <string name="feedback_discription">अपनी आलोचना लिखें ..</string>
+    <string name="enquiry">जांच</string>
+    <string name="raise_issue">कृपया प्रतीक्षा करें..</string>
+
+    <string name="please_wait">कृपया प्रतीक्षा करें..</string>
+
+    <string name="logout_lang">लोग आउट</string>
+    <string name="edit_language">भाषा बदलो</string>
+
+    <string name="verification_sugession">कृपया अपना 6 अंकों का ओटीपी कोड दर्ज करें. जो एसएमएस के माध्यम से आपके मोबाइल नंबर पर भेजा गया है।</string>
+
+    <string name="verifying_warning1">हम मोबाइल नंबर की पुष्टि करेंगे</string>
+    <string name="verifying_warning2">क्या यह आपका मोबाइल नंबर है?</string>
+    <string name="verifying_warning3">क्या आप मोबाइल नंबर एडिट करना चाहते हैं?</string>
+
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+
+    <string name="btn_logout_from_google">Google से लॉगआउट करें</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--FB-->
+
+    <string name="facebook_app_id">183116522229310</string>
+    <string name="fb_login_protocol_scheme">fb183116522229310</string>
+
+
+    <string name="str_retry">फिर से कोशिश करना</string>
+
+
+    <!--**********************************Activities Strings*************************-->
+
+    <string name="parasitic">परजीवी</string>
+    <string name="diseases">रोग</string>
+    <string name="bacterial">जीवाणु संबंधी</string>
+    <string name="fungal">फफूंदीय</string>
+    <string name="viral">विषक्त संक्रामक</string>
+    <string name="report_a_disease">बीमारी की रिपोर्ट करें</string>
+
+    <string name="home">होम</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="history">हिस्टरी</string>
+    <string name="logout">बाहर</string>
+    <string name="abtus">हमारे बारे में</string>
+
+
+    <string name="does_fish_prob">क्या आपकी मछली में स्वास्थ्य समस्या है?</string>
+    <string name="provide_det_form">कृपया निम्नलिखित फॉर्म में समस्या विवरण प्रदान करें।</string>
+    <string name="water_spread_area">1.पानी फैलाव क्षेत्र</string>
+    <string name="acres">एकड़</string>
+    <string name="water_depth">2. पानी की गहराई</string>
+    <string name="meter">मीटर</string>
+    <string name="species_composition">3. प्रजाति संरचना</string>
+    <string name="stocking_density">4. माल-संग्रह घनता(प्रति एकड़)</string>
+    <string name="nos">क्रमांक</string>
+    <string name="stocking_date">5. माल-संग्रह तारीख</string>
+    <string name="date">तारीख</string>
+    <string name="biomass">6. बायोमास</string>
+    <string name="prs_size_fish">7. मछली का मौजूदा वजन</string>
+    <string name="grams">ग्राम</string>
+    <string name="mortality">8. इस बीमारी एपिसोड के साथ मृत्यु दर(क्रमांक)</string>
+    <string name="water_ph">9. जल पीएच             </string>
+    <string name="water_alkalinity">10. जल क्षारीयता</string>
+    <string name="desc_of_problem">11. समस्या का विस्तृत विवरण</string>
+    <string name="prev_medication_given">12. वर्तमान / पिछली दवा दी गई</string>
+    <string name="submit">निवेदन करें</string>
+    <string name="verify_mobile_number">अपना मोबाइल नंबर सत्यापित/साबित करें</string>
+    <string name="cifa_will_send">CIFA के द्वारा आपको एक ओटीपी संदेश भेजा जाएगा</string>
+    <string name="your_mobile_number">आपका मोबाइल नंबर.</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="next">नेक्स्ट</string>
+    <string name="or">अथवा</string>
+
+
+    <!--SignUp layout-->
+    <string name="enter_name">आपका नाम</string>
+    <string name="email_address">ईमेल पता</string>
+    <string name="mobile_no">मोबाइल नंबर</string>
+    <string name="select_state">राज्य का चयन करे</string>
+    <string name="select_district">जिला का चयन करें</string>
+    <string name="select_city">शहर का चयन करे</string>
+    <string name="pin_code">पिन कोड</string>
+
+
+    <string name="string_about_us">
+        Central Institute of Freshwater Aquaculture
+    </string>
+
+    <string name="changeLanguage">भाषा बदलिए</string>
+
+
+    <string name="progerss_hint">कृपया प्रतीक्षा करें..</string>
+
+    <!--<string name="please_wait">Please wait...</string>-->
+    <string name="loading_data">डेटा लोड हो रहा है..</string>
+    <string name="fetching_data">डेटा लोड हो रहा है</string>
+    <string name="initial_setup">प्रारंभिक डेटा लोड हो रहा है</string>
+
+    <!--dash board-->
+    <string name="server_not_responding">सर्वर काम नहीं कर रहा है..</string>
+    <string name="try_after_time">कुछ समय बाद पुनः प्रयास करें.</string>
+
+
+    <string name="title_activity_fish_dashboard_four">Treat My Fish</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_fish_dashboard_three">FishDashboardActivityThree</string>
+    <string name="title_activity_fish_dash">Dashboard</string>
+
+</resources>

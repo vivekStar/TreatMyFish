@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_verify_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SMS Verifiaction"
+            android:textColor="@color/primary"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/verification_sugession"
+            android:textColor="@color/greytext"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etOTPNo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="21sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="10sp"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/mobile_blue_icon"
+            android:drawablePadding="15sp"
+            android:hint="Enter OTP here"
+            android:inputType="number"
+            android:letterSpacing="0.1"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text=""
+            android:textColor="@color/primary_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnVerifyOtp"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/primary_dark"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

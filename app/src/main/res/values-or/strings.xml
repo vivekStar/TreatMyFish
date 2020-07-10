@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ମୋ ମାଛର ଚିିିକିତ୍ସା</string>
+
+    <string name="str_splash_screen">ସ୍କ୍ରିନ ଉପରେ</string>
+    <string name="signup">ସିଜନ୍ରିୁଉପ </string>
+
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="oriya">ଓଡ଼ିଆ</string>
+    <string name="strContinue">Continue</string>
+
+    <string name="sel_language_en">Select Your Language</string>
+    <string name="sel_language_hi">अपनी भाषा का चयन करें</string>
+    <string name="sel_language_or">ନିଜ ଭାଷା ବାଛନ୍ତୁ</string>
+
+    <string name="action_settings">ସେଟ୍ କରନ୍ତୁ</string>
+    <string name="verifyotp">ଓଟିପି ଯାଂଚ କରନ୍ତୁ</string>
+
+    <string name="issue_dashbord">ରୋଗର ଶଦ୍ଦକୋଷ</string>
+    <string name="title">ମୋ ମାଛର ଚିକିତ୍ସା</string>
+    <string name="diseases_info">ରୋଗ ବିଷୟରେ ତଥ୍ୟ</string>
+
+    <string name="str_select_issue">ରୋଗ ବାଛନ୍ତୁ </string>
+    <string name="str_add_comment">ସମସ୍ୟା ବୁଝାଇ ଲେଖନ୍ତୁ</string>
+    <string name="str_pre_med">ଔଷଧ ବ୍ୟବହାର କରିଥିଲେ ତାର ବିବରଣୀ ଦିଅନ୍ତୁ</string>
+    <string name="edit_profile">ପ୍ରୋଫାଇଲ୍ ଲେଖନ୍ତୁ </string>
+    <string name="str_amc_details">ଏଏମ୍ସି ବିବରଣୀ</string>
+    <string name="emailid">ବ୍ୟବହାରକାରୀଙ୍କ ନାମ</string>
+    <string name="password">ପାସ୍ ୱାର୍ଡ</string>
+    <string name="forgot_password">ପାସ୍ ୱାର୍ଡ ଭୁଲିଗଲେ</string>
+    <string name="sign_up">ନୂଆ ବ୍ୟବହାରକାରୀ ସାଇନଅପ୍ କରିବାକୁ</string>
+    <string name="bt_single_continue">ଲଗ୍ ଇନ୍</string>
+    <string name="bt_google_signin">ଗୁଗୁଲ୍ରେ ଲଗ୍ଇନ୍</string>
+    <string name="bt_facebook_signin">ଫେସ୍ବୁକ୍ରେ ସାଇନ୍ କରନ୍ତୁ</string>
+    <string name="err_msg_email">ଠିକ୍ ବ୍ୟବହାର ନାମ ଏଂଟ୍ରି କରନ୍ତୁ </string>
+    <string name="err_msg_password">ଦୟାକରି ପାସ୍ୱାର୍ଡ ଭରନ୍ତୁ</string>
+    <string name="err_msg">ଦୟାକରି ପାସ୍ୱାର୍ଡ ଭରନ୍ତୁ</string>
+    <string name="logging">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ </string>
+    <string name="logout_msg">ଲଗ୍ ଆଉଟ୍ କରିବେ କି?</string>
+    <string name="login">ଲଗ୍ଇନ୍ </string>
+    <string name="fishinfo">ମାଛ ବିଷୟରେ</string>
+    <string name="disease_info">ରୋଗ ବିଷୟରେ </string>
+    <string name="title_issue_details">ରୋଗ ବିଷୟରେ ସୂଚନା </string>
+
+    <string name="cancel">ପ୍ରତ୍ୟାହାର</string>
+    <string name="save">ସଂରକ୍ଷଣ</string>
+    <string name="saving_image">ଫଟୋ ସଂରକ୍ଷିତ କରାନ୍ତୁ </string>
+    <string name="preparing_card">କାର୍ଡ ତିଆରି ହେଉଛ</string>
+    <string name="no_storage_card">ମେମୋରି କାର୍ଡ ନାହିଁ</string>
+    <string name="not_enough_space">ବହୁତ ଯାଗା ନାହିଁ </string>
+    <string name="str_device_details">ସେବା ସୂଚନା</string>
+    <string name="str_start_date">ଆରମ୍ଭ ତାରିଖ</string>
+    <string name="str_end_date">ଶେଷ ତାରିଖ</string>
+    <string name="str_preventive_maintenance">ରକ୍ଷଣା ବେକ୍ଷଣ</string>
+    <string name="str_no_qnt">ସମୁଦାୟ ଯନ୍ତ୍ର ପରିମାଣ</string>
+    <string name="amc_details">AMC ବିଷୟରେ</string>
+    <string name="request_issue_succesfull">ଅନୁରୋଧ ଦାଖିଲ କୃତକାର୍ଯ୍ୟ </string>
+    <string name="thanks_feedback">ଅନୁରୋଧ ଦଖଲ ପାଇଁ ଧନ୍ୟବାଦ</string>
+    <string name="loading_history">ମାଛରୋଗ ଇତିହାସ ଲୋଡ କରାଯାଉଛ</string>
+    <string name="loading_amc_details">ଲୋଡିଂ ବିଷୟରେ</string>
+    <string name="str_promotion">ପ୍ରୋମୋସନ</string>
+    <string name="loading_promotion">ଅଫର ବିଷୟରେ</string>
+    <string name="feedback_succesfull">ଶୀଘ୍ର ସଂପର୍କ କରୁଛୁ</string>
+    <string name="feedback_discription">ମତାମତ ଲେଖନ୍ତୁ..</string>
+    <string name="enquiry">ସୂଚନା</string>
+    <string name="raise_issue">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ..</string>
+
+    <string name="please_wait">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ..</string>
+
+    <string name="logout_lang">Logout</string>
+    <string name="edit_language">ଭାଷା ପରିବର୍ତନ</string>
+
+
+    <string name="verification_sugession">ଆପଣଙ୍କ ମୋବାଇଲକୁ ପ୍ରେରିିତ ୬ ସଂଖ୍ୟା ବିଶିଷ୍ଟ କୋର୍ଡକୁ ଏଂଟ୍ରି କରନ୍ତୁ.</string>
+
+    <string name="verifying_warning1">ଆମେ ମୋବାଇଲ ନଂ ଯାଂଚ କରୁଛୁ.</string>
+    <string name="verifying_warning2">ଏହା ଆପଣଙ୍କ ମୋôବାଇଲ ନଂ କି? </string>
+    <string name="verifying_warning3">ମୋବାଇଲ ନଂ ସଶୋଂଧନ କରିବେ କି?</string>
+
+
+    <string name="btn_logout_from_google">ଗୁଗ୍ଲିରୁ ବାହାରକୁ ଆସନ୍ତୁ</string>
+    <string name="btn_revoke_access">ପୁଣି ଥରେ କରିବା ପାଇଁ ଅନୁମତ</string>
+
+    <string name="yes">ହଁ</string>
+    <string name="no">ନା</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--FB-->
+
+    <string name="facebook_app_id">183116522229310</string>
+    <string name="fb_login_protocol_scheme">fb183116522229310</string>
+
+
+    <string name="str_retry">RETRY</string>
+
+
+    <!--Fb-->
+
+
+    <!--**********************************sdsadasdas*************************-->
+
+    <string name="parasitic">କୃମିଜନିତ </string>
+    <string name="diseases">ରୋଗ</string>
+    <string name="bacterial">ଜୀବାଣୁ ଜନିତ</string>
+    <string name="fungal">ଫିମ୍ପି ଜାତୀୟ</string>
+    <string name="viral">ଭୂତାଣୁ ଜନିତ</string>
+    <string name="report_a_disease">ରୋଗ ରିପୋର୍ଟ କରନ୍ତୁ</string>
+
+    <string name="home">ହୋମ୍</string>
+    <string name="profile">ବିବରଣୀ</string>
+    <string name="history">ଇତିହାସ</string>
+    <string name="logout">ଲଗ୍ଆଉଟ୍</string>
+    <string name="abtus">ଅମ ବିଷୟରେ</string>
+
+    <string name="does_fish_prob">ଆପଣଙ୍କ ମାଛରେ ରୋଗ ଅଛି କି?</string>
+    <string name="provide_det_form">କ୍ଟକ୍ସଜ୍ଞ. ଏହି ସଂପର୍କରେ ସୂଚନା ଦିଅନ୍ତୁ</string>
+
+    <string name="water_spread_area">1.ପୋଖରୀ ପାଣିର ଆୟତନ</string>
+    <string name="acres">ଏକରରେ</string>
+    <string name="water_depth">2. ପାଣିର ଗଭୀରତା</string>
+    <string name="meter">ମିଟରରେ</string>
+    <string name="species_composition">3. କେଉଁ ପ୍ରଜାତିର ମାଛ ଅଛନ୍ତି</string>
+
+    <string name="stocking_density">4. ଏକର ପିଛା କେତେ ମାଛ ରଖିଛନ୍ତି</string>
+    <string name="nos">ସଂଖ୍ର‌୍ୟାରେ</string>
+    <string name="stocking_date">5. କେବେ ମାଛ ଛାଡିଛନ୍ତି</string>
+    <string name="date">ତାରିଖ</string>
+    <string name="biomass">6. କେତେ ପରିମାଣ</string>
+    <string name="prs_size_fish">7. ଏବେ ମାଛର ଲମ୍ବ ଓ ଓଜନ</string>
+    <string name="grams">ଗ୍ରାମରେ</string>
+    <string name="mortality">8. କେତେ ଥର ମାଛ ମରିଲେଣି?</string>
+    <string name="water_ph">9. ପାଣିର ପି.ଏଚ୍             </string>
+    <string name="water_alkalinity">10. ପାଣିର କ୍ଷାରତ୍ୱ</string>
+    <string name="desc_of_problem">11. ରୋଗ ସମସ୍ୟାର ବିବରଣୀ</string>
+    <string name="prev_medication_given">12. ଆଗରୁ କିମ୍ବା ଏବେ କିଛି ଔଷଧ ବ୍ୟବହାର ସୂଚନା</string>
+    <string name="submit">ଦାଖଲ କରନ୍ତୁ </string>
+
+
+    <string name="verify_mobile_number">ଆପଣଙ୍କ ମୋବାଇଲ ଯାଂଚ କରନ୍ତୁ </string>
+    <string name="cifa_will_send">ସିଫା ଆପଣଙ୍କୁ ଓଟିପି ପଠାଇବ ଯାଂଚ କରିବା ପାଇଁ </string>
+    <string name="your_mobile_number">ଆପଣଙ୍କ ମୋବାଇଲ ନଂ</string>
+    <string name="mobile_number">ମୋବାଇଲ ନଂ</string>
+    <string name="next">ତାପରେ</string>
+    <string name="or">କିମ୍ବା</string>
+
+
+    <!--SignUp layout-->
+    <string name="enter_name">ଆପଣଙ୍କ ନାମ</string>
+    <string name="email_address">ଇ-ମେଲ୍</string>
+    <string name="mobile_no">ମୋବାଇଲ ନଂ</string>
+    <string name="select_state">ରାଜ୍ୟ</string>
+    <string name="select_district">ଜିଲ୍ଲା</string>
+    <string name="select_city">ସହର</string>
+    <string name="pin_code">ପିନକୋର୍ଡ</string>
+
+    <string name="string_about_us">Central Institute of Freshwater Aquaculture</string>
+
+
+    <string name="progerss_hint">ଦୟାକରି ଅପେକ୍ଷା କରନ୍ତୁ..</string>
+
+    <!--<string name="please_wait">Please wait...</string>-->
+    <string name="loading_data">ଡାଟା ଲୋଡ ହେଉଛ</string>
+    <string name="fetching_data">ଡାଟା ସଂଗ୍ରହ ହେଉଛ</string>
+    <string name="initial_setup">ପ୍ରାଥମିକ ପ୍ରସ୍ତୁତ</string>
+
+    <string name="changeLanguage">ଭାଷା ପରିବର୍ତନ</string>
+
+    <!--Dash board-->
+
+    <string name="server_not_responding">ସରଭର କାମ କରୁନାହିଁ..</string>
+    <string name="try_after_time">କିଛି ସମୟ ପରେ ଚେଷ୍ଟା କରନ୍ତୁ.</string>
+    <string name="title_activity_fish_dashboard_four">ମାଛ ରୋଗର ଚିକିତ୍ସ</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_fish_dashboard_three">FishDashboardActivityThree</string>
+    <string name="title_activity_fish_dash">Dashboard</string>
+
+</resources>

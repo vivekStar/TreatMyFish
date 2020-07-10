@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#f5f5f5"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:scrollbars="none">
+
+            <!-- android:fillViewport="true"-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding"
+                    android:weightSum="1">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_start_date"
+                        android:textSize="@dimen/txt_title_size" />
+
+                    <TextView
+                        android:id="@+id/tv_start_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text=""
+                        android:textSize="@dimen/txt_title_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_end_date"
+                        android:textSize="@dimen/txt_title_size" />
+
+                    <TextView
+                        android:id="@+id/tv_end_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text=""
+                        android:textSize="@dimen/txt_title_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_preventive_maintenance"
+                        android:textSize="@dimen/txt_title_size" />
+
+                    <TextView
+                        android:id="@+id/tv_prev_main"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text=""
+                        android:textSize="@dimen/txt_title_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_no_qnt"
+                        android:textSize="@dimen/txt_title_size" />
+
+                    <TextView
+                        android:id="@+id/tv_no_device"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text=""
+                        android:textSize="@dimen/txt_title_size" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/str_device_details"
+                    android:textSize="@dimen/txt_title_size" />
+
+                <com.webfarms.treatmyfish.custom.GridViewScrollable
+                    android:id="@+id/lvOrderList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:divider="@color/divider"
+                    android:gravity="center"
+                    android:isScrollContainer="false"
+                    android:scrollbars="none"
+                    android:stretchMode="columnWidth"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">TreatMyFish</string>
+
+    <string name="str_splash_screen">Splash Screen</string>
+    <string name="signup">Sign Up</string>
+
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="oriya">ଓଡ଼ିଆ</string>
+    <string name="strContinue">Continue</string>
+
+    <string name="sel_language_en">Select Your Language</string>
+    <string name="sel_language_hi">अपनी भाषा का चयन करें</string>
+    <string name="sel_language_or">ନିଜ ଭାଷା ବାଛନ୍ତୁ</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="verifyotp">Verify OTP</string>
+
+
+    <string name="issue_dashbord">Diseases Dashboard</string>
+    <string name="title">Treat My Fish</string>
+    <string name="diseases_info">Diseases Information</string>
+
+    <string name="str_select_issue">Select Diseases </string>
+    <string name="str_add_comment">Detailed description of the problem</string>
+    <string name="str_pre_med">Present/Previous medication given</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="str_amc_details">AMC Details</string>
+    <string name="emailid">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="sign_up">New User signup</string>
+    <string name="bt_single_continue">LOG IN</string>
+    <string name="bt_google_signin">Login with Google</string>
+    <string name="bt_facebook_signin">Facebook Sign in</string>
+    <string name="err_msg_email">Please enter correct user name</string>
+    <string name="err_msg_password">Please enter password</string>
+    <string name="err_msg">Please enter password</string>
+    <string name="logging">Please wait..</string>
+    <string name="logout_msg">Do you want to logout ?</string>
+    <string name="login">Login</string>
+    <string name="fishinfo">Fish Info</string>
+    <string name="disease_info">Disease Info</string>
+    <string name="title_issue_details">Diseases Details</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="saving_image">Saving image</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+    <string name="str_device_details">Service details</string>
+    <string name="str_start_date">Start date :</string>
+    <string name="str_end_date">End date</string>
+    <string name="str_preventive_maintenance">Preventive maintenance</string>
+    <string name="str_no_qnt">Total device quantity</string>
+    <string name="amc_details">AMC Details</string>
+    <string name="request_issue_succesfull">Request Submission Successful</string>
+    <string name="thanks_feedback">Thank you for submitting your request, we will process your request shortly</string>
+    <string name="loading_history">Loading your Fish diseases history</string>
+    <string name="loading_amc_details">Loading details</string>
+    <string name="str_promotion">Promotions</string>
+    <string name="loading_promotion">Loading exciting offers</string>
+    <string name="feedback_succesfull">Thank you for your enquiry, we will contact you shortly</string>
+    <string name="feedback_discription">Write your comments..</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="raise_issue">Please wait..</string>
+
+    <string name="please_wait">Please wait..</string>
+
+    <string name="logout_lang">Logout</string>
+    <string name="edit_language">Change Language</string>
+
+
+    <string name="verification_sugession">Please enter your 6 digit verification code sent to your mobile number via SMS.</string>
+
+    <string name="verifying_warning1">We will be verifying the mobile number.</string>
+    <string name="verifying_warning2">Is this is your mobile number or</string>
+    <string name="verifying_warning3">would you like to edit the mobile number?</string>
+
+
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--FB-->
+
+    <string name="facebook_app_id">183116522229310</string>
+    <string name="fb_login_protocol_scheme">fb183116522229310</string>
+
+
+    <string name="str_retry">RETRY</string>
+
+
+    <!--Fb-->
+
+
+    <!--**********************************sdsadasdas*************************-->
+
+    <string name="parasitic">Parasitic</string>
+    <string name="diseases">Diseases</string>
+    <string name="bacterial">Bacterial</string>
+    <string name="fungal">Fungal</string>
+    <string name="viral">Viral</string>
+    <string name="report_a_disease">Report a disease</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="history">History</string>
+    <string name="logout">Logout</string>
+    <string name="abtus">About Us</string>
+
+    <string name="does_fish_prob">Does your Fish have a health problem?</string>
+    <string name="provide_det_form">Please provide details in the following form.</string>
+
+    <string name="water_spread_area">1.Water spread area</string>
+    <string name="acres">Acres</string>
+    <string name="water_depth">2. Water Depth</string>
+    <string name="meter">Meter</string>
+    <string name="species_composition">3. Species composition</string>
+    <string name="stocking_density">4. Stocking density(per Acres)</string>
+    <string name="nos">Nos</string>
+    <string name="stocking_date">5. Stocking date</string>
+    <string name="date">Date</string>
+    <string name="biomass">6. Biomass</string>
+    <string name="prs_size_fish">7. Present size/weight of the fish</string>
+    <string name="grams">Grams</string>
+    <string name="mortality">8. Mortality with this disease episode(Nos)</string>
+    <string name="water_ph">9. Water PH             </string>
+    <string name="water_alkalinity">10. Water Alkalinity</string>
+    <string name="desc_of_problem">11. Detailed description of problem</string>
+    <string name="prev_medication_given">12. Present/Previous medication given</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="verify_mobile_number">Verify your Mobile Number</string>
+    <string name="cifa_will_send">CIFA will send you a OTP message to verify</string>
+    <string name="your_mobile_number">Your Mobile number.</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="next">NEXT</string>
+    <string name="or">OR</string>
+
+
+    <!--SignUp layout-->
+    <string name="enter_name">Your Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="select_state">Select State</string>
+    <string name="select_district">Select District</string>
+    <string name="select_city">Select City</string>
+    <string name="pin_code">PIN Code</string>
+
+    <string name="string_about_us">
+        Central Institute of Freshwater Aquaculture
+    </string>
+
+
+    <string name="progerss_hint">Please wait..</string>
+
+    <!--<string name="please_wait">Please wait...</string>-->
+    <string name="loading_data">Loading data</string>
+    <string name="fetching_data">Fetching data</string>
+    <string name="initial_setup">Initial Setup</string>
+
+    <string name="changeLanguage">Change Language</string>
+
+    <!--Dash board-->
+
+    <string name="server_not_responding">Server not responding..</string>
+    <string name="try_after_time">Try again after some time.</string>
+    <string name="title_activity_fish_dashboard_four">Treat My Fish</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_fish_dashboard_three">FishDashboardActivityThree</string>
+    <string name="title_activity_fish_dash">Dashboard</string>
+</resources>

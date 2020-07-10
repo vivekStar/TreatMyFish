@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/history" />
+
+        <item
+            android:id="@+id/nav_chglang"
+            android:icon="@drawable/chglng_icon"
+            android:title="@string/changeLanguage" />
+
+        <item
+            android:id="@+id/nav_abt_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="@string/abtus" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_e"
+            android:title="@string/logout" />
+    </group>
+</menu>

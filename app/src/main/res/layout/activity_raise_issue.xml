@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+        <LinearLayout
+            android:id="@+id/ll_request_issue_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Does you have a problem?"
+                android:textColor="#D4AF37"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Just take a photo and send to us"
+                android:textColor="@color/primary"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Our expert will help you out"
+                android:textColor="@color/primary"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/str_select_issue"
+                    android:textSize="@dimen/txt_menu_size" />
+
+                <Spinner
+                    android:id="@+id/spn_issue_list"
+                    style="@style/spinner_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/str_add_comment"
+                    android:textSize="@dimen/txt_menu_size" />
+
+                <EditText
+                    android:id="@+id/et_comment_box"
+                    style="@style/comment_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="top"
+                    android:inputType="textMultiLine|textCapWords|textCapSentences"
+                    android:lines="5"
+                    android:textSize="15sp">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_camera"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginLeft="12px"
+                android:layout_marginRight="12px"
+                android:layout_marginTop="16px"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+
+                <FrameLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_camera">
+
+                    <ImageButton
+                        android:id="@+id/ib1"
+                        android:layout_width="93dp"
+                        android:layout_height="93dp"
+                        android:layout_gravity="center"
+                        android:background="@color/transparent"
+                        android:scaleType="fitCenter" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/fib2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_camera">
+
+                    <ImageButton
+                        android:id="@+id/ib2"
+                        android:layout_width="93dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@color/transparent"
+                        android:scaleType="fitCenter" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fib3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_camera">
+
+                    <ImageButton
+                        android:id="@+id/ib3"
+                        android:layout_width="93dp"
+                        android:layout_height="93dp"
+                        android:layout_gravity="center"
+                        android:background="@color/transparent"
+                        android:scaleType="fitCenter" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_submit_issue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt_submit_issue"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/primary_dark"
+                    android:text="@string/submit"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_request_submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/submission_tick" />
+
+            <TextView
+                android:id="@+id/tv_customerIssueId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Token No : #12345678"
+                android:textColor="@color/accent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/request_issue_succesfull"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/thanks_feedback" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/lay_bottom_navigationbar"/>
+
+    </LinearLayout>
+
+</LinearLayout>

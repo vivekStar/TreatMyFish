@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:id="@+id/tvIssueID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding"
+            android:layout_marginRight="@dimen/padding"
+            android:paddingLeft="5dp"
+            android:text="Issue ID : "
+            android:textColor="@color/primary_dark"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="Date"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvDiseaseStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="Status :"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_select_issue"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_crop_operator"
+                android:text="select"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

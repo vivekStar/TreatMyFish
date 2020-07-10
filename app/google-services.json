@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1063593311265",
+    "firebase_url": "https://treatmyfish-bb717.firebaseio.com",
+    "project_id": "treatmyfish-bb717",
+    "storage_bucket": "treatmyfish-bb717.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063593311265:android:f6f692e80c5577e6",
+        "android_client_info": {
+          "package_name": "com.webfarms.treatmyfish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063593311265-ps3atrec29tomcbdd5ednltl0ihokm7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webfarms.treatmyfish",
+            "certificate_hash": "9cb4faa8754509c5a3f67fbbd172cc7d758a89cb"
+          }
+        },
+        {
+          "client_id": "1063593311265-v6ntglkui4vt8fel0k6utdvqhpkc8huc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webfarms.treatmyfish",
+            "certificate_hash": "44e9cde16835cd505730df56f1154853f56e5b0e"
+          }
+        },
+        {
+          "client_id": "1063593311265-gj28hkmeb3d8l3iufrrnpb2q40kf4t8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuamk66pBLCKbe5lYjl_s-vk_vZ_TwTtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063593311265-gj28hkmeb3d8l3iufrrnpb2q40kf4t8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

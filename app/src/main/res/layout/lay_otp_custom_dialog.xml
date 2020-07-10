@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/mobile_blue_icon" />
+
+            <TextView
+                android:id="@+id/tvDiaMobNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9944225533"
+                android:textColor="@color/primary_dark"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verifying_warning1"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verifying_warning2"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verifying_warning3"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnEditMob"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/primary"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSubmitMob"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/primary"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

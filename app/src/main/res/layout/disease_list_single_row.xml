@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_70dp"
+    android:orientation="vertical"
+    android:padding="@dimen/padding2">
+
+
+    <LinearLayout
+        android:id="@+id/ll_cat_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--<ImageView
+                android:id="@+id/imgTransType"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen_20dp"
+                android:layout_marginRight="@dimen/padding5"
+                android:src="@drawable/cifalogo" />-->
+
+            <LinearLayout
+                android:id="@+id/ll_list_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+
+                <TextView
+                    android:id="@+id/tv_disease_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:letterSpacing="0.05"
+                    android:text="11 12 PM"
+                    android:textSize="@dimen/dimen_20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgTransType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/padding5"
+            android:src="@drawable/ic_arrow_right" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blue_grey_300" />
+
+</LinearLayout>
